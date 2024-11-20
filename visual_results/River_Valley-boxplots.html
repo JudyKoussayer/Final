@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+		<link rel="modulepreload" href="/_app/immutable/entry/start.866030ab.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.26d87cf1.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.273b995a.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.3c91c0f5.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.fd224e7a.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.b64d337d.js">
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">
+			<script>
+				{
+					__sveltekit_dsd7iw = {
+						base: "",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.866030ab.js"),
+						import("/_app/immutable/entry/app.fd224e7a.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('/service-worker.js');
+						});
+					}
+				}
+			</script>
+		</div>
+    <noscript>
+      <style>
+        .js-needed {
+          display: none;
+        }
+      </style>
+      <div class="container">
+        <h1>JavaScript Required</h1>
+        <p>
+          Sorry, this page requires JavaScript to function. Please enable it in
+          your browser for this domain name.
+        </p>
+      </div>
+    </noscript>
+  </body>
+</html>
