@@ -10,3 +10,5 @@ Then, MiniConda was installed in order to also install Qiime2
 Install codes can be found in install_MiniConda.sh and install_qiime2.sh, respectively
 
 Then, the tests were performed. Alpha Diversity tests (Shannon entropy and Faith's PD) and a Beta Diversity test (with Bray-Curtis Metric)
+
+Finally, the taxonomy was classified. To classify the sequences, SILVA was used. Then, the results were visualized
