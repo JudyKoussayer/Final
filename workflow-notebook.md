@@ -9,4 +9,4 @@ After the files were downloaded through the SRA Toolkit, the metadata file was c
 Then, MiniConda was installed in order to also install Qiime2
 Install codes can be found in install_MiniConda.sh and install_qiime2.sh, respectively
 
-Then, the tests were performed. Alpha Diversity tests (Shannon entropy and Faith's PD)
+Then, the tests were performed. Alpha Diversity tests (Shannon entropy and Faith's PD) and a Beta Diversity test (with Bray-Curtis Metric)
