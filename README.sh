@@ -14,7 +14,7 @@ It is also hypothesized the diversity and predominant taxa across the population
 Methodology:
 Samples were collected from three distinct populations; two in Oklahoma (LeFlore County and Marshall County) and one in South Dakota (Misourri River Valley)
 
-Data will be analyzed by:
+Data will be analyzed in Linux by:
 1) Alpha diveristy (Shannon entropy and Faith's PD)
 2) Beta diversity (Bray-Curtis dissimilarity)
 3) Taxonomic classification of dominant taxa
@@ -34,3 +34,13 @@ Conservation implications: relocation efforts should account for changes in envi
 Potential Further Directions
 Expand scope of sample and geographic location
 Incorportae specific environmental facotrs (temperature, pollution, etc.)
+
+
+Layout of Repository:
+Taxonomy_Composition_Levels: Consists of .cvs files detailing microbrial classifications of samples across phylum (level 2) and species (level 7)
+code: Consists of .sh scripts and written codes used for all aspects of project (installation of software/data, data refinement, and visualization)
+data_new: Consists of all FASTQ files used in the study
+visual_metrics: Consists of all .qza files used to process the data for analyses
+visual_results: Consists of all .qzv files used to visualize results in QIIME2Visualize
+final_metadata.tsv: Consists of the metadata used in the study
+workflow-notebook.md: Contains a brief outline of the analysis pipeline
